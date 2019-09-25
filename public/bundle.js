@@ -90,10 +90,23 @@
 /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log('app.js is running');\n\n//# sourceURL=webpack:///./src/app.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _person_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./person.js */ \"./src/person.js\");\n//import './utils.js';\n\n//import subtract, { square, add } from './utils.js';\n\n\n\nconsole.log('app.js is running');\n// console.log(square(4));\n// console.log(add(2, 5));\n// console.log(subtract(9, 5));\n\nconsole.log(Object(_person_js__WEBPACK_IMPORTED_MODULE_0__[\"isAdult\"])(17));\nconsole.log(Object(_person_js__WEBPACK_IMPORTED_MODULE_0__[\"canDrink\"])(24))\nconsole.log(Object(_person_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(65))\n\n\n//# sourceURL=webpack:///./src/app.js?");
+
+/***/ }),
+
+/***/ "./src/person.js":
+/*!***********************!*\
+  !*** ./src/person.js ***!
+  \***********************/
+/*! exports provided: isAdult, canDrink, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"isAdult\", function() { return isAdult; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"canDrink\", function() { return canDrink; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return isSenior; });\nconst isAdult = (age) => age >= 18\n\nconst canDrink = (age) => age >= 21 \n\nconst isSenior = (age) => age >= 65\n\n\n\n//# sourceURL=webpack:///./src/person.js?");
 
 /***/ })
 
