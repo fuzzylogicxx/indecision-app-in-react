@@ -3,6 +3,7 @@ import React from 'react';
 const Action = (props) => (
     <div>
         <button
+            className="main-button" 
             onClick={props.handlePick} 
             disabled={!props.hasOptions}
         >

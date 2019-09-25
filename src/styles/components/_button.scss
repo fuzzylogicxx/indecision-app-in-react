@@ -1,0 +1,32 @@
+.main-button {
+    background-color: $purple;
+    border: none;
+    border-bottom: .6rem solid darken($purple, 10%);
+    color: #fff;
+    font-size: $l-size;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: $xl-size;
+    padding: 2.4rem;
+}
+
+.main-button:disabled {
+    opacity: .5;
+}
+
+.button {
+    background-color: $purple;
+    border: none;
+    border-bottom: .3rem solid darken($purple, 10%);
+    color: #fff;
+    font-weight: 500;
+    padding: $s-size
+}
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
